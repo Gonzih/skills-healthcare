@@ -1,0 +1,39 @@
+{
+  "name": "@gonzih/skills-healthcare",
+  "version": "1.0.0",
+  "description": "Claude Code skill suite for healthcare providers — clinical-note-draft, patient-education, prior-auth-writer, research-digest",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "healthcare",
+    "clinical",
+    "medical",
+    "SOAP note",
+    "patient education",
+    "prior authorization",
+    "EHR",
+    "CME"
+  ],
+  "author": "Maksim Soltan",
+  "license": "MIT",
+  "main": "install.js",
+  "bin": {
+    "skills-healthcare": "install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gonzih/skills-healthcare"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "install.js",
+    "skills/",
+    "llms.txt",
+    "README.md"
+  ]
+}
