@@ -1,0 +1,35 @@
+# skills-healthcare
+
+Claude Code skill suite for healthcare providers — physicians, nurse practitioners, physician assistants, and nurses.
+
+## Skills
+
+### /clinical-note-draft
+Draft structured SOAP or progress notes from bullet points or dictation.
+Triggers: clinical note, SOAP note, progress note, chart note, visit note, clinical documentation
+
+### /patient-education
+Generate plain-language patient education materials at a 6th-grade reading level.
+Triggers: patient education, explain diagnosis, patient handout, health education, explain condition, patient instructions
+
+### /prior-auth-writer
+Draft medical necessity letters for insurance prior authorization and appeals.
+Triggers: prior authorization, prior auth, insurance authorization, PA letter, medical necessity letter, insurance appeal
+
+### /research-digest
+Transform clinical research abstracts into structured digests with evidence grading, NNT/NNH, and practice implications.
+Triggers: clinical research, medical research, research summary, journal summary, CME research, literature summary, evidence-based update
+
+## Important
+
+All skills are documentation drafting aids. Clinical decisions and final documentation are the responsibility of the licensed provider. No skill output constitutes a medical record, a clinical recommendation, or a substitution for professional clinical judgment.
+
+## Install
+
+```
+npm install @gonzih/skills-healthcare
+```
+
+## License
+
+MIT
