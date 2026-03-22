@@ -16,6 +16,11 @@ Produces a structured SOAP or progress note draft from provider bullet points or
 
 > **This is a documentation drafting aid. All clinical decisions and final documentation are the responsibility of the licensed provider.**
 
+## Live Data Sources
+
+- **NIH ICD-10 API** — clinicaltables.nlm.nih.gov — Autocomplete and lookup for ICD-10-CM codes. Use to verify suggested diagnosis codes in the Assessment section before provider attestation.
+- **CPT Code Lookup** — AMA CPT code patterns for common procedure codes. Reference standard E/M visit code families (99202–99215 for office visits) and procedure-specific codes when documenting the Plan section.
+
 ## How to Invoke
 
 Invoke this skill by describing your visit. You can use shorthand bullets, abbreviated clinical language, or free dictation — whatever is fastest for you. Example:

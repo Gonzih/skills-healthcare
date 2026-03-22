@@ -1,6 +1,6 @@
 {
   "name": "@gonzih/skills-healthcare",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Claude Code skill suite for healthcare providers — clinical-note-draft, patient-education, prior-auth-writer, research-digest",
   "keywords": [
     "claude-code",
