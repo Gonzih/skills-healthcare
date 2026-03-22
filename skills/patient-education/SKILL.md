@@ -16,6 +16,11 @@ Generates plain-language patient education materials written at a 6th-grade read
 
 > **This is a documentation drafting aid. All clinical decisions and final documentation are the responsibility of the licensed provider.**
 
+## Live Data Sources
+
+- **MedlinePlus Connect API** — medlineplus.gov/connect/service.html — Maps diagnosis codes (ICD-10-CM) and drug codes (RxNorm) to curated patient education content from the National Library of Medicine. Use to pull authoritative, plain-language topic summaries aligned to the patient's diagnosis.
+- **NIH Health Topics** — health.nih.gov — Condition-specific health information from NIH institutes (NIDDK, NHLBI, NCI, etc.). Reference for evidence-based lifestyle and disease management content included in handouts.
+
 ## How to Invoke
 
 Tell the skill what you need to explain and for whom. Examples:

@@ -17,6 +17,13 @@ Transforms a clinical research abstract or finding into a structured clinical di
 
 > **This is a documentation drafting aid. All clinical decisions and final documentation are the responsibility of the licensed provider.**
 
+## Live Data Sources
+
+- **PubMed E-utilities API** — eutils.ncbi.nlm.nih.gov — NCBI's programmatic interface to PubMed's 36M+ citation database.
+  - `esearch`: Query PubMed for PMIDs matching a clinical question or keyword set.
+  - `efetch`: Retrieve full abstracts, MeSH terms, author affiliations, and publication metadata by PMID.
+  - Use to pull primary abstracts when the user provides a study title or clinical question rather than a pasted abstract.
+
 ## How to Invoke
 
 Paste the abstract, provide a citation, or describe the clinical question. Examples:

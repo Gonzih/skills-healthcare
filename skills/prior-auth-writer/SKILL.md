@@ -16,6 +16,10 @@ Drafts a medical necessity letter for insurance prior authorization or appeals. 
 
 > **This is a documentation drafting aid. All clinical decisions and final documentation are the responsibility of the licensed provider. Provider must review all content for accuracy before submission to any payer.**
 
+## Live Data Sources
+
+- **CMS Medicare Coverage Database** — cms.gov/medicare-coverage-database — National Coverage Determinations (NCDs) and Local Coverage Determinations (LCDs) that define Medicare coverage criteria. Use to align medical necessity arguments with the specific coverage determination applicable to the requested service.
+
 ## How to Invoke
 
 Provide the clinical details and the skill builds the letter. Example:
